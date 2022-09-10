@@ -258,7 +258,7 @@ if DB_URI is not None:
 
 LOGGER.info("Generating USER_SESSION_STRING")
 try:
-    PREMIUM_USER = False
+    PREMIUM_USER = True
     SESSION_STRING = getConfig('SESSION_STRING')
     if len(SESSION_STRING) == 0:
         raise KeyError
