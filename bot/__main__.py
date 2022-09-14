@@ -155,13 +155,8 @@ botcmds = [
     (f"{BotCommands.SetThumbCommand}", "Set thumbnail"),
     (f"{BotCommands.StatusCommand}", "Get Mirror Status message"),
     (f"{BotCommands.ListCommand}", "Search files in Drive"),
-    (f"{BotCommands.CancelCommand}", "Cancel a task"),
-    (f"{BotCommands.CancelallCommand}", "Cancel all tasks"),
-    (f"{BotCommands.DelCommand}", "Delete file/folder from Drive{owner}"),
     (f"{BotCommands.LogCommand}", "Get the Bot Log{owner}"),
-    (f"{BotCommands.RestartCommand}", "Restart the Bot{sudo}"),
     (f"{BotCommands.StatsCommand}", "Bot Usage Stats"),
-    (f"{BotCommands.PingCommand}", "Ping the Bot"),
     (f"{BotCommands.HelpCommand}", "All cmds with description"),
 ]
 
