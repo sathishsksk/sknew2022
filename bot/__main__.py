@@ -149,7 +149,7 @@ botcmds = [
     (f"{BotCommands.CountCommand}", "Count file/folder of Drive"),
     (f"{BotCommands.WatchCommand}", "Mirror yt-dlp supported link"),
     (f"{BotCommands.ZipWatchCommand}", "Mirror yt-dlp supported link as zip"),
-    (f"{BotCommands.leechWatchCommand}", "Leech through yt-dlp supported link"),
+    (f"{BotCommands.LeechWatchCommand}", "Leech through yt-dlp supported link"),
     (f"{BotCommands.LeechZipWatchCommand}", "Leech yt-dlp support link as zip"),
     (f"{BotCommands.LeechSetCommand}", "Leech settings"),
     (f"{BotCommands.SetThumbCommand}", "Set thumbnail"),
