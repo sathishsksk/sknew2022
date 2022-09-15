@@ -157,7 +157,12 @@ botcmds = [
     (f"{BotCommands.ListCommand}", "Search files in Drive"),
     (f"{BotCommands.LogCommand}", "Get the Bot Log{owner}"),
     (f"{BotCommands.StatsCommand}", "Bot Usage Stats"),
+    (f"{BotCommands.SpeedCommand}", "Test Internet Speed"),
     (f"{BotCommands.HelpCommand}", "All cmds with description"),
+    (f"{BotCommands.DeleteCommand}", "Delete file from GDrive [owner only]"),
+    (f"{BotCommands.CancelMirror}", "Cancel a task"),
+    (f"{BotCommands.CancelAllCommand}", "Cancel all tasks [owner only]"),
+    (f"{BotCommands.AuthorizeCommand}", "Authorize a chat [owner only]"),
 ]
 
 
